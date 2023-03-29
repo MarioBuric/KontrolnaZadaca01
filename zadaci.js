@@ -1,13 +1,13 @@
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje parne brojeve od 0 do 100 (ukljucujuci 100)
 
-let function ParniSto() {
-    parametar = 0;
-    for (let i = 0; i <= 100; i++) {
-        parametar += i;
-    }
-    console.log("Upisi parni broj od 1 do 100: ", parametar);
-}
+//let function ParniSto() {
+//  parametar = 0;
+// for (let i/2 = 0; i <= 100; i++) {
+//   parametar += i;
+//}
+//console.log("Upisi parni broj od 1 do 100: ", parametar);
+//}
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
@@ -21,14 +21,14 @@ let function ParniSto() {
 
 //4 (4 BODA)
 //Napisi funkciju koja vraca najkraci kljuc u danom objektu
-const somePeople = {
-    Donald: "Knuth",
-    Bjarne: "Stroustrup",
-    Ada: "Lovelace",
-    Kent: "Beck",
-    Martin: "Fowler",
-    Erich: "Gamma"
-}
+//const somePeople = {
+//  Donald: "Knuth",
+// Bjarne: "Stroustrup",
+//  Ada: "Lovelace",
+//  Kent: "Beck",
+//  Martin: "Fowler",
+//  Erich: "Gamma"
+//}
 
 const somePeople = [
     {
@@ -49,7 +49,11 @@ const somePeople = [
     },
     {
         ime: Martin,
-        Prezime
+        Prezime: Flower
+    },
+    {
+        ime: Erich,
+        Prezime: Gamma
     }
 
 
